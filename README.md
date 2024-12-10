@@ -1,9 +1,45 @@
 <div align="center">
 
-# kotaemon
+# Projeto baseado no "kotaemon"
 
-An open-source clean & customizable RAG UI for chatting with your documents. Built with both end users and
-developers in mind.
+Este projeto cria uma interface RAG de código aberto, limpa e personalizável para interagir com seus documentos. 
+Criada tanto para usuários finais quanto para desenvolvedores.
+
+Algumas Características do App:
+
+✔︎ Interface Limpa e Personalizável: Oferece uma interface minimalista para perguntas e respostas (QA) com base em RAG, projetada para ser amigável tanto para usuários finais quanto para desenvolvedores.
+
+✔︎ Compatibilidade com Múltiplos Modelos de Linguagem: Suporta integração com provedores de API conhecidos, como OpenAI e AzureOpenAI, além de modelos locais através de ferramentas como ollama e llama-cpp-python.
+
+✔︎ Instalação Fácil: Fornece scripts simples que permitem uma rápida inicialização do app.
+
+✔︎ Framework para Pipelines RAG: Fornece ferramentas específicas para que desenvolvedores construam seus próprios pipelines RAG para QA de documentos.
+
+✔︎ Suporte Multiusuário e Colaboração: Permite login de múltiplos usuários, organização de documentos em coleções privadas/públicas e compartilhamento de chats favoritos.
+
+✔︎ Pipeline RAG Híbrido: Implementa um pipeline híbrido que combina recuperadores de texto completo e vetorial para garantir a melhor qualidade de recuperação.
+
+✔︎ Suporte a QA Multimodal: Realiza perguntas e respostas em múltiplos documentos, com suporte a figuras e tabelas, e parsing multimodal de documentos.
+
+✔︎ Citações Avançadas com Visualização de Documentos: Fornece citações detalhadas para garantir a precisão das respostas dos modelos de linguagem, com visualização de citações diretamente no visualizador de PDF no navegador.
+
+✔︎ Métodos de Raciocínio Avançados: Suporta decomposição de perguntas para questões complexas, utilizando raciocínio baseado em agentes como ReAct e ReWOO.
+
+✔︎ Configurações Ajustáveis: Interface configurável que permite ajustar aspectos importantes do processo de recuperação e geração, incluindo prompts.
+
+✔︎ Extensibilidade: Construído sobre Gradio, permitindo a customização ou adição de elementos da interface conforme desejado.
+
+✔︎ Pipeline de Indexação GraphRAG: Disponível como exemplo de estratégia de indexação e recuperação de documentos.
+
+✔︎ Requisitos do Sistema: Necessita de Python ≥ 3.10 e Docker opcional para instalação.
+
+✔︎ Compatibilidade com Docker: Oferece versões lite e full de imagens Docker para suporte a diferentes tipos de arquivo e requisitos de sistema.
+
+vConfiguração de Modelos Locais e Indexação: Suporta configuração de modelos locais e pipelines de indexação personalizados para casos de uso específicos.
+
+
+
+
 
 ![Preview](https://raw.githubusercontent.com/Cinnamon/kotaemon/main/docs/images/preview-graph.png)
 
